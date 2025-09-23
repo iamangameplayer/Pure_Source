@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Source - Food, Education & Amenities Donation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+
+    <header class="bg-white shadow-lg p-4 sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#home" class="text-3xl font-extrabold text-green-700 flex items-center space-x-2">
+                <svg class="h-8 w-8 text-green-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Pure Source</span>
+            </a>
+            <div class="flex items-center space-x-4 md:space-x-6">
+                <a href="#home" class="text-gray-700 hover:text-green-600 font-semibold transition duration-200">Home</a>
+                <a href="#food-donation" class="text-gray-700 hover:text-green-600 font-semibold transition duration-200">Food Donation</a>
+                <a href="#education-support" class="text-gray-700 hover:text-green-600 font-semibold transition duration-200">Education Support</a>
+                <a href="#amenities-donation" class="text-gray-700 hover:text-green-600 font-semibold transition duration-200">Amenities Donation</a>
+                <button id="loginRegisterBtn" class="px-5 py-2.5 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition duration-300 focus:outline-none focus:ring-4 focus:ring-green-300">Login / Register</button>
+                <button id="dashboardBtn" class="px-5 py-2.5 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300 hidden">Dashboard</button>
+                <button id="profileBtn" class="px-5 py-2.5 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition duration-300 focus:outline-none focus:ring-4 focus:ring-purple-300 hidden">Profile</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="app-content" class="container mx-auto py-8 px-4 flex-grow">
+        <section id="home-section" class="relative text-center py-24 px-4 bg-gradient-to-br from-green-600 to-teal-700 text-white overflow-hidden rounded-xl shadow-2xl mb-12">
+            <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23000\' fill-opacity=\'.07\'%3E%3Cpath d=\'M36 34.2L30 29.8 24 34.2l-6-4.4-6 4.4L6 29.8l6-4.4-6-4.4 6-4.4L6 11.8l6-4.4 6 4.4L24 7.4l6 4.4 6-4.4 6 4.4L48 7.4l-6 4.4 6 4.4-6 4.4 6 4.4-6 4.4L48 29.8l-6 4.4zM30 0L24 4.4 18 0 12 4.4 6 0 0 4.4V55.6L6 60l6-4.4 6 4.4 6-4.4 6 4.4 6-4.4 6 4.4 6-4.4V4.4L54 0l-6 4.4-6-4.4-6 4.4-6-4.4-6 4.4z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-5 leading-tight animate-fade-in-down">Empowering Communities Through Generosity</h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90 animate-fade-in-up">Connecting those with surplus to those in need: Food, Education, and Amenities for a better tomorrow.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 animate-zoom-in">
+                <button class="px-10 py-4 bg-white text-green-700 font-bold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50" onclick="navigate('food-donation')">Donate Food</button>
+                <button class="px-10 py-4 bg-white text-teal-700 font-bold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50" onclick="navigate('education-support')">Support Education</button>
+                <button class="px-10 py-4 bg-white text-indigo-700 font-bold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50" onclick="navigate('amenities-donation')">Donate Amenities</button>
+            </div>
+        </section>
+
+        <div id="dynamic-content-area" class="py-12">
+            </div>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 mt-12 w-full">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Pure Source. All rights reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/food.js"></script>
+    <script src="js/education.js"></script>
+    <script src="js/amenities.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

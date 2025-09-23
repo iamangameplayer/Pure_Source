@@ -1,0 +1,12 @@
+C:\Users\nagas\my_website_project\backend\target\debug\deps\tinystr-c59c7cda21b7b2d6.d: C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\lib.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\macros.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ascii.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\asciibyte.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\error.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\int_ops.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\unvalidated.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ule.rs
+
+C:\Users\nagas\my_website_project\backend\target\debug\deps\libtinystr-c59c7cda21b7b2d6.rmeta: C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\lib.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\macros.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ascii.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\asciibyte.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\error.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\int_ops.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\unvalidated.rs C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ule.rs
+
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\lib.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\macros.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ascii.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\asciibyte.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\error.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\int_ops.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\unvalidated.rs:
+C:\Users\nagas\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ule.rs:

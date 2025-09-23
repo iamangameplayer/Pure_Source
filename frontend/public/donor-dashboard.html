@@ -1,0 +1,17 @@
+<h2 class="text-4xl font-bold text-center text-green-700 mb-8">Donor Dashboard</h2>
+<div class="bg-white p-6 rounded-lg shadow-xl">
+    <p class="text-xl mb-4">Welcome, <span id="dashboardDonorName">Donor!</span></p>
+    <h3 class="text-2xl font-semibold text-green-600 mb-4">Your Active Listings:</h3>
+    <div id="activeDonations" class="space-y-4">
+        <p class="text-gray-500">You currently have no active donations.</p>
+        </div>
+    <h3 class="text-2xl font-semibold text-green-600 mb-4 mt-8">Donation History:</h3>
+    <div id="donationHistory" class="space-y-4">
+        <p class="text-gray-500">No past donations recorded yet.</p>
+        </div>
+    <div class="mt-6 flex flex-wrap gap-4">
+        <button class="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition duration-300" onclick="navigate('food-donation')">Create Food Donation</button>
+        <button class="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300" onclick="navigate('education-support')">Offer Education Session</button>
+        <button class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition duration-300" onclick="navigate('amenities-donation')">Create Amenity Donation</button>
+    </div>
+</div>

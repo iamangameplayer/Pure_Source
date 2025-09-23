@@ -1,0 +1,99 @@
+/* css/style.css */
+
+/* Custom font import (if not using Google Fonts CDN) */
+/* @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+*/
+
+/* Basic body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased; /* For better font rendering on WebKit browsers */
+    -moz-osx-font-smoothing: grayscale; /* For better font rendering on Firefox */
+    
+    /* Background Image Styling */
+    background-image: url('../background.jpg.jpg'); /* Adjust path as needed */
+    background-size: cover; /* Scales the image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    
+    background-color: #F8F9FA; /* Fallback background color if image fails to load */
+}
+
+/* Adjustments for elements on top of the background image for better readability */
+#home-section {
+    /* Use a semi-transparent background to ensure text readability over the main background image */
+    background: rgba(4, 120, 87, 0.85); /* Example: 85% opaque version of a green color */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Keep original shadow for depth */
+}
+
+/* You might want to explicitly set text colors for better contrast against the background image.
+   For example, if your image is dark, ensure text is light. */
+.text-gray-800, .text-gray-700 {
+    /* Example: Force a lighter color for better contrast on potentially dark background areas */
+    /* color: #f9fafb; */
+}
+
+
+/* Animations for hero section */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-fade-in-down {
+    animation: fadeInDown 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards 0.3s; /* Delay for sequential animation */
+}
+
+.animate-zoom-in {
+    animation: zoomIn 0.8s ease-out forwards 0.6s; /* Delay for sequential animation */
+}
